@@ -10,7 +10,7 @@ The `apt-key` utility used in the **DEB-based distros** section of the official 
 sudo curl -o /etc/apt/keyrings/plexmediaserver.asc \
   https://downloads.plex.tv/plex-keys/PlexSign.key
 ```
-2. Add the Plex repository as an APT data source:
+2. Add the Plex repository as an APT data source (see the man pages for [apt-key](https://manpages.ubuntu.com/manpages/jammy/man8/apt-key.8.html) and [sources.list](https://manpages.ubuntu.com/manpages/jammy/man5/sources.list.5.html) for reference):
     1. Create the file `/etc/apt/sources.list.d/plexmediaserver.sources`.
     
     2. Add the lines:
